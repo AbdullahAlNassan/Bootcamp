@@ -1,0 +1,7 @@
+begin_kapitaal = 10000
+rente_percentage = 2.8
+jaren = [5, 15]
+
+for jaar in jaren:
+    eind_kapitaal = begin_kapitaal * (1 + rente_percentage / 100) ** jaar
+    print(f"Na {jaar} jaar heb je {round(eind_kapitaal, 2)} euro.")
