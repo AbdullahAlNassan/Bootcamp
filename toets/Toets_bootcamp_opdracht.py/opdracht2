@@ -1,0 +1,4 @@
+# Maak het commentaar af
+a = 5  # dit is een voorbeeld van het datatype: integer
+b = 10.5  # dit is een voorbeeld van het datatype: float
+c = "Hallo wereld"  # dit is een voorbeeld van het datatype: string
